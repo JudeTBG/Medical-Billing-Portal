@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './components/footer'
 import Header from './components/header'
+import MainLayout from './layouts/MainLayout'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <MainLayout>
       <Header />
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -32,6 +34,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Footer />
+    </MainLayout>
     </>
   )
 }
