@@ -4,8 +4,7 @@ import MainLayout from "../../layouts/MainLayout";
 const PageNotfound: React.FC = () => {
     return (
         <MainLayout>
-            <main>
-
+            <main >
                 <div className="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
                     <div className="breadcrumb__background" data-background="./assets/imgs/breadcrumb/page-header-1.png"></div>
                     <div className="container">
@@ -27,8 +26,6 @@ const PageNotfound: React.FC = () => {
                         </div>
                     </div>
                 </div>
-
-
                 <section className="error section-space">
                     <div className="container">
                         <div className="row align-items-center">

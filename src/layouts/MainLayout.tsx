@@ -76,7 +76,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
             <div className="offcanvas__overlay"></div>
             <div className="offcanvas__overlay-white"></div>
             <Header />
-            <section>{children}</section>
+            <section >{children}</section>
             <Footer />
 
         </main>
