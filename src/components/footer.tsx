@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer>
-            <section className="footer__area-common white-bg overflow-hidden" data-background="assets/imgs/footer/background.png">
+            <section className="footer__area-common white-bg overflow-hidden" data-background="/src/assets/imgs/footer/background.png">
                 <div className="container">
                     <div className="row mb-minus-50">
                         <div className="col-lg-3 col-6">
