@@ -13,7 +13,7 @@ const ContactPage: React.FC = () => {
                                 <div className="search__top d-flex justify-content-between align-items-center">
                                     <div className="search__logo">
                                         <a href="index.html">
-                                            <img src="src/assets/imgs/logo/logo-white.svg" alt="img" />
+                                            <img src="/assets/imgs/logo/logo-white.svg" alt="img" />
                                         </a>
                                     </div>
                                     <div className="search__close">
@@ -66,7 +66,7 @@ const ContactPage: React.FC = () => {
                             <div className="offcanvas__top d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <a href="index.html">
-                                        <img src="src/assets/imgs/logo/logo-white.svg" alt="logo not found" />
+                                        <img src="/assets/imgs/logo/logo-white.svg" alt="logo not found" />
                                     </a>
                                 </div>
                                 <div className="offcanvas__close">
@@ -140,7 +140,7 @@ const ContactPage: React.FC = () => {
                                 <div className="header__logo">
                                     <a href="index.html">
                                         <div className="logo">
-                                            <img src="src/assets/imgs/logo/logo.svg" alt="logo not found" />
+                                            <img src="/assets/imgs/logo/logo.svg" alt="logo not found" />
                                         </div>
                                     </a>
                                 </div>
@@ -155,7 +155,7 @@ const ContactPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-1.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-1.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -177,7 +177,7 @@ const ContactPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-2.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-2.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-2.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -199,7 +199,7 @@ const ContactPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-3.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-3.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-3.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -221,7 +221,7 @@ const ContactPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-4.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-4.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-4.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -243,7 +243,7 @@ const ContactPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-5.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-5.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-5.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -346,7 +346,7 @@ const ContactPage: React.FC = () => {
             <main>
                 {/* <!-- Breadcrumb area start  --> */}
                 <div className="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
-                    <div className="breadcrumb__background" data-background="./src/assets/imgs/breadcrumb/page-header-1.png"></div>
+                    <div className="breadcrumb__background" data-background="/assets/imgs/breadcrumb/page-header-1.png"></div>
                     <div className="container">
                         <div className="row align-items-center justify-content-between">
                             <div className="col-12">
@@ -374,7 +374,7 @@ const ContactPage: React.FC = () => {
                         <div className="row align-items-end mb-60 mb-sm-50 mb-xs-40">
                             <div className="col-lg-6">
                                 <div className="section__title-wrapper">
-                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Take Appointment</h5>
+                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Take Appointment</h5>
                                     <h2 className="section__title mb-0 title-animation">Radiant Resilience Your Wellness Your Strength</h2>
                                 </div>
                             </div>
@@ -491,7 +491,7 @@ const ContactPage: React.FC = () => {
                         <div className="col-md-6">
                             <div className="footer__cta-item mb-30 theme-bg-primary d-flex flex-lg-row flex-column align-items-lg-center">
                                 <div className="footer__cta-item-icon d-flex align-items-center justify-content-center">
-                                    <img className="img-fluid" src="src/assets/imgs/footer__cta/footer__cta-item-1.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/footer__cta/footer__cta-item-1.png" alt="icon not found" />
                                 </div>
 
                                 <div className="footer__cta-item-text">
@@ -504,7 +504,7 @@ const ContactPage: React.FC = () => {
                         <div className="col-md-6">
                             <div className="footer__cta-item mb-30 theme-bg-glow d-flex flex-lg-row flex-column align-items-lg-center">
                                 <div className="footer__cta-item-icon d-flex align-items-center justify-content-center">
-                                    <img className="img-fluid" src="src/assets/imgs/footer__cta/footer__cta-item-2.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/footer__cta/footer__cta-item-2.png" alt="icon not found" />
                                 </div>
 
                                 <div className="footer__cta-item-text">

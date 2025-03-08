@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
                             <div className="offcanvas__top d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <a href="index.html">
-                                        <img src="src/assets/imgs/logo/logo-white.svg" alt="logo not found" />
+                                        <img src="/assets/imgs/logo/logo-white.svg" alt="logo not found" />
                                     </a>
                                 </div>
                                 <div className="offcanvas__close">
@@ -94,7 +94,7 @@ const AboutPage: React.FC = () => {
                                 <div className="header__logo">
                                     <a href="index.html">
                                         <div className="logo">
-                                            <img src="src/assets/imgs/logo/logo.svg" alt="logo not found" />
+                                            <img src="/assets/imgs/logo/logo.svg" alt="logo not found" />
                                         </div>
                                     </a>
                                 </div>
@@ -109,7 +109,7 @@ const AboutPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-1.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-1.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -131,7 +131,7 @@ const AboutPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-2.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-2.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-2.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -153,7 +153,7 @@ const AboutPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-3.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-3.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-3.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -175,7 +175,7 @@ const AboutPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-4.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-4.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-4.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -197,7 +197,7 @@ const AboutPage: React.FC = () => {
                                                         <li>
                                                             <div className="home__menu-item">
                                                                 <div className="home__menu-thumb">
-                                                                    <img src="src/assets/imgs/menu/menu-home-5.jpg" alt="thumb not found" />
+                                                                    <img src="/assets/imgs/menu/menu-home-5.jpg" alt="thumb not found" />
                                                                     <div className="home__menu-buttons">
                                                                         <a href="index-5.html" className="rr-btn">
                                                                             <span className="btn-wrap">
@@ -300,7 +300,7 @@ const AboutPage: React.FC = () => {
             <main>
                 {/* <!-- Breadcrumb area start  --> */}
                 <div className="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
-                    <div className="breadcrumb__background" data-background="./src/assets/imgs/breadcrumb/page-header-1.png"></div>
+                    <div className="breadcrumb__background" data-background=".//assets/imgs/breadcrumb/page-header-1.png"></div>
                     <div className="container">
                         <div className="row align-items-center justify-content-between">
                             <div className="col-12">
@@ -332,10 +332,10 @@ const AboutPage: React.FC = () => {
                                         <a href="https://www.youtube.com/watch?v=dyNpojnbNT4" className="popup-video" data-effect="mfp-move-from-top vertical-middle">
                                             <i className="fa-solid fa-play zooming"></i>
                                         </a>
-                                        <img src="src/assets/imgs/about-us-2/about-us-1.jpg" className="img-fluid" alt="image not found" />
+                                        <img src="/assets/imgs/about-us-2/about-us-1.jpg" className="img-fluid" alt="image not found" />
                                     </div>
                                     <div className="about-us-2__media-image-2">
-                                        <img src="src/assets/imgs/about-us-2/about-us-2.jpg" className="img-fluid" alt="image not found" />
+                                        <img src="/assets/imgs/about-us-2/about-us-2.jpg" className="img-fluid" alt="image not found" />
                                         <div className="circle upDown">
                                             <svg width="111" height="111" viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M110.785 60.6122L0.517544 60.6122C0.406443 59.4679 0.330326 58.31 0.302317 57.1451L111 57.1451C110.972 58.31 110.896 59.4679 110.785 60.6122ZM109.661 67.6711L1.6416 67.6711C1.38486 66.5272 1.16266 65.3689 0.975465 64.204L110.327 64.204C110.14 65.3689 109.918 66.5272 109.661 67.6711ZM107.545 74.7304L3.76465 74.7304C3.33425 73.5931 2.94589 72.4352 2.59905 71.2633L108.704 71.2633C108.364 72.4352 107.975 73.5931 107.545 74.7304ZM104.325 81.7892L6.98383 81.7892C6.36624 80.6589 5.79063 79.501 5.24913 78.3221L106.053 78.3221C105.519 79.501 104.936 80.6589 104.325 81.7892ZM99.7326 88.8551L11.5702 88.8551C10.7094 87.7317 9.89809 86.5809 9.13485 85.388L102.175 85.388C101.405 86.5809 100.593 87.7318 99.7326 88.8551ZM93.3218 95.9144L17.9809 95.9144C16.7873 94.8116 15.6427 93.6537 14.5536 92.4473L96.7492 92.4473C95.6601 93.6537 94.515 94.8116 93.3218 95.9144ZM83.8722 102.973L27.4236 102.973C25.6333 101.919 23.9131 100.761 22.2616 99.5061L89.0412 99.5062C87.3896 100.755 85.662 101.919 83.8722 102.973ZM64.2512 110.033C61.448 110.469 58.5757 110.698 55.6479 110.698C52.72 110.698 49.8478 110.469 47.0446 110.033C42.7224 109.36 38.5663 108.188 34.6321 106.565L76.6633 106.565C72.7294 108.188 68.5734 109.36 64.2512 110.033ZM0.517545 50.0858L110.785 50.0858C110.896 51.2302 110.972 52.3881 111 53.5529L0.302317 53.5529C0.330326 52.388 0.406444 51.2302 0.517545 50.0858ZM1.64862 43.02L109.654 43.02C109.918 44.1643 110.14 45.3222 110.327 46.4871L0.975467 46.4871C1.16266 45.3222 1.38487 44.1643 1.64862 43.02ZM3.76465 35.9611L107.538 35.9611C107.968 37.098 108.357 38.2564 108.704 39.4282L2.59905 39.4282C2.94589 38.2564 3.33425 37.098 3.76465 35.9611ZM6.99079 28.9018L104.318 28.9018C104.936 30.0322 105.512 31.19 106.046 32.3689L5.25614 32.3689C5.79064 31.19 6.37319 30.0322 6.99079 28.9018ZM11.5702 21.843L99.7326 21.843C100.593 22.9663 101.405 24.1172 102.175 25.3101L9.13486 25.3101C9.89809 24.1172 10.7094 22.9663 11.5702 21.843ZM17.981 14.7837L93.3218 14.7837C94.515 15.8795 95.6601 17.0443 96.7492 18.2508L14.5536 18.2508C15.6427 17.0443 16.7873 15.8794 17.981 14.7837ZM27.4236 7.71783L83.8722 7.71783C85.662 8.77907 87.3826 9.93693 89.0342 11.1849L22.2686 11.1849C23.9132 9.92992 25.6333 8.77906 27.4236 7.71783ZM47.0861 0.658978C49.8753 0.221974 52.7336 0.000198036 55.6479 0.00019829C58.5617 0.000198545 61.4205 0.221975 64.2097 0.65898C68.5459 1.3313 72.7154 2.50319 76.6563 4.12609L34.6391 4.12608C38.5799 2.50319 42.7499 1.33129 47.0861 0.658978Z" fill="#185EC8" />
@@ -347,7 +347,7 @@ const AboutPage: React.FC = () => {
                             <div className="col-lg-6">
                                 <div className="about-us-2__main-content">
                                     <div className="section__title-wrapper about-us-2__content mb-60 mb-xs-50">
-                                        <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> About Us</h5>
+                                        <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> About Us</h5>
                                         <h2 className="section__title mb-20 title-animation">Holistic Haven Where Health Every Day</h2>
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc. Duis egestas ac ante sed tincidunt.</p>
                                     </div>
@@ -423,7 +423,7 @@ const AboutPage: React.FC = () => {
                                 <div className="service-3__item mb-50">
                                     <div className="service-3__item-header d-flex mb-40 mb-xs-35">
                                         <div className="service-3__item-header-icon">
-                                            <img className="img-fluid" src="src/assets/imgs/service-3/service-icon-1.png" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/service-3/service-icon-1.png" alt="icon not found" />
                                         </div>
                                         <h4 className="mb-0">Get Fast Reply</h4>
                                     </div>
@@ -435,7 +435,7 @@ const AboutPage: React.FC = () => {
                                 <div className="service-3__item mb-50">
                                     <div className="service-3__item-header d-flex mb-40 mb-xs-35">
                                         <div className="service-3__item-header-icon">
-                                            <img className="img-fluid" src="src/assets/imgs/service-3/service-icon-2.png" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/service-3/service-icon-2.png" alt="icon not found" />
                                         </div>
                                         <h4 className="mb-0">InspireHealth Hub</h4>
                                     </div>
@@ -447,7 +447,7 @@ const AboutPage: React.FC = () => {
                                 <div className="service-3__item mb-50">
                                     <div className="service-3__item-header d-flex mb-40 mb-xs-35">
                                         <div className="service-3__item-header-icon">
-                                            <img className="img-fluid" src="src/assets/imgs/service-3/service-icon-3.png" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/service-3/service-icon-3.png" alt="icon not found" />
                                         </div>
                                         <h4 className="mb-0">Health Services</h4>
                                     </div>
@@ -459,7 +459,7 @@ const AboutPage: React.FC = () => {
                                 <div className="service-3__item mb-50">
                                     <div className="service-3__item-header d-flex mb-40 mb-xs-35">
                                         <div className="service-3__item-header-icon">
-                                            <img className="img-fluid" src="src/assets/imgs/service-3/service-icon-4.png" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/service-3/service-icon-4.png" alt="icon not found" />
                                         </div>
                                         <h4 className="mb-0">Voyage Wellness</h4>
                                     </div>
@@ -491,11 +491,11 @@ const AboutPage: React.FC = () => {
 
                             <div className="col-lg-6">
                                 <div className="wellness-expertise__media">
-                                    <img src="./src/assets/imgs/wellness-expertise/wellness-expertise.png" className="img-fluid" alt="image not found" />
+                                    <img src=".//assets/imgs/wellness-expertise/wellness-expertise.png" className="img-fluid" alt="image not found" />
 
                                     <div className="wellness-expertise__media__box">
                                         <div className="wellness-expertise__media__box-icon">
-                                            <img className="img-fluid" src="src/assets/imgs/wellness-expertise/note.svg" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/wellness-expertise/note.svg" alt="icon not found" />
                                         </div>
                                         <div className="wellness-expertise__media__box-text">
                                             <h3><span className="odometer" data-count="380">0</span>+</h3>
@@ -514,21 +514,21 @@ const AboutPage: React.FC = () => {
                     <div className="container">
                         <div className="rr-scroller" data-speed="slow">
                             <ul className="text-anim rr-scroller__inner">
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li><strong>Health Guard</strong></li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li>Care Wise Medical</li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li><strong>Health Guard</strong></li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li>Care Wise Medical</li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li><strong>Health Guard</strong></li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li>Care Wise Medical</li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li><strong>Health Guard</strong></li>
-                                <li><img src="./src/assets/imgs/slider-text/health-guard.png" alt="" /></li>
+                                <li><img src=".//assets/imgs/slider-text/health-guard.png" alt="" /></li>
                                 <li>Care Wise Medical</li>
                             </ul>
                         </div>
@@ -539,11 +539,11 @@ const AboutPage: React.FC = () => {
                 {/* <!-- client-testimonial area start --> */}
                 <section className="client-testimonial section-space overflow-hidden">
                     <div className="container">
-                        <div className="client-testimonial__shape"><img className="img-fluid" src="src/assets/imgs/testimonial/client-testimonial__helth.png" alt="icon not found" /></div>
+                        <div className="client-testimonial__shape"><img className="img-fluid" src="/assets/imgs/testimonial/client-testimonial__helth.png" alt="icon not found" /></div>
                         <div className="row align-items-end mb-60 mb-sm-50 mb-xs-40">
                             <div className="col-lg-7">
                                 <div className="section__title-wrapper client-testimonial__content">
-                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Clients Testimonial</h5>
+                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Clients Testimonial</h5>
                                     <h2 className="section__title mb-0 title-animation">Nurture Nature Blossoming in Health and Happiness</h2>
                                 </div>
                             </div>
@@ -558,7 +558,7 @@ const AboutPage: React.FC = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="client-testimonial__media">
-                                    <img className="img-fluid" src="src/assets/imgs/client-testimonial/client-testimonial.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/client-testimonial/client-testimonial.png" alt="icon not found" />
                                 </div>
                             </div>
 
@@ -569,14 +569,14 @@ const AboutPage: React.FC = () => {
                                             <div className="swiper-slide">
                                                 <div className="client-testimonial__item">
                                                     <div className="client-testimonial__item-icon mb-30 mb-xs-25">
-                                                        <img className="img-fluid" src="src/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
+                                                        <img className="img-fluid" src="/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
                                                     </div>
 
                                                     <p className="mb-30 mb-xs-25">Leverage agile frameworks  provide a robust synopsis for strategy foster Leverage a frame works to provide a robust synopsis for strateg fr collaborative thinking to further the overall value prop osition</p>
 
                                                     <div className="client-testimonial__item-author d-flex align-items-center">
                                                         <div className="client-testimonial__item-author-thumb">
-                                                            <img className="img-fluid" src="src/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
                                                         </div>
                                                         <div className="client-testimonial__item-author-content">
                                                             <h5>Jenny Wilson</h5>
@@ -588,14 +588,14 @@ const AboutPage: React.FC = () => {
                                             <div className="swiper-slide">
                                                 <div className="client-testimonial__item">
                                                     <div className="client-testimonial__item-icon mb-30 mb-xs-25">
-                                                        <img className="img-fluid" src="src/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
+                                                        <img className="img-fluid" src="/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
                                                     </div>
 
                                                     <p className="mb-30 mb-xs-25">Leverage agile frameworks  provide a robust synopsis for strategy foster Leverage a frame works to provide a robust synopsis for strateg fr collaborative thinking to further the overall value prop osition</p>
 
                                                     <div className="client-testimonial__item-author d-flex align-items-center">
                                                         <div className="client-testimonial__item-author-thumb">
-                                                            <img className="img-fluid" src="src/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
                                                         </div>
                                                         <div className="client-testimonial__item-author-content">
                                                             <h5>Jenny Wilson</h5>
@@ -607,14 +607,14 @@ const AboutPage: React.FC = () => {
                                             <div className="swiper-slide">
                                                 <div className="client-testimonial__item">
                                                     <div className="client-testimonial__item-icon mb-30 mb-xs-25">
-                                                        <img className="img-fluid" src="src/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
+                                                        <img className="img-fluid" src="/assets/imgs/client-testimonial/qoute.png" alt="icon not found" />
                                                     </div>
 
                                                     <p className="mb-30 mb-xs-25">Leverage agile frameworks  provide a robust synopsis for strategy foster Leverage a frame works to provide a robust synopsis for strateg fr collaborative thinking to further the overall value prop osition</p>
 
                                                     <div className="client-testimonial__item-author d-flex align-items-center">
                                                         <div className="client-testimonial__item-author-thumb">
-                                                            <img className="img-fluid" src="src/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/client-testimonial/thumb.png" alt="icon not found" />
                                                         </div>
                                                         <div className="client-testimonial__item-author-content">
                                                             <h5>Jenny Wilson</h5>
@@ -643,35 +643,35 @@ const AboutPage: React.FC = () => {
                                         <div className="swiper-slide">
                                             <div className="brand__item text-center">
                                                 <div className="brand__thumb">
-                                                    <img className="img-fluid" src="src/assets/imgs/brand/brand-1.png" alt="image not found" />
+                                                    <img className="img-fluid" src="/assets/imgs/brand/brand-1.png" alt="image not found" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="swiper-slide">
                                             <div className="brand__item text-center">
                                                 <div className="brand__thumb">
-                                                    <img className="img-fluid" src="src/assets/imgs/brand/brand-2.png" alt="image not found" />
+                                                    <img className="img-fluid" src="/assets/imgs/brand/brand-2.png" alt="image not found" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="swiper-slide">
                                             <div className="brand__item text-center">
                                                 <div className="brand__thumb">
-                                                    <img className="img-fluid" src="src/assets/imgs/brand/brand-3.png" alt="image not found" />
+                                                    <img className="img-fluid" src="/assets/imgs/brand/brand-3.png" alt="image not found" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="swiper-slide">
                                             <div className="brand__item text-center">
                                                 <div className="brand__thumb">
-                                                    <img className="img-fluid" src="src/assets/imgs/brand/brand-4.png" alt="image not found" />
+                                                    <img className="img-fluid" src="/assets/imgs/brand/brand-4.png" alt="image not found" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="swiper-slide">
                                             <div className="brand__item text-center">
                                                 <div className="brand__thumb">
-                                                    <img className="img-fluid" src="src/assets/imgs/brand/brand-5.png" alt="image not found" />
+                                                    <img className="img-fluid" src="/assets/imgs/brand/brand-5.png" alt="image not found" />
                                                 </div>
                                             </div>
                                         </div>
@@ -691,7 +691,7 @@ const AboutPage: React.FC = () => {
                         <div className="col-md-6">
                             <div className="footer__cta-item mb-30 theme-bg-primary d-flex flex-lg-row flex-column align-items-lg-center">
                                 <div className="footer__cta-item-icon d-flex align-items-center justify-content-center">
-                                    <img className="img-fluid" src="src/assets/imgs/footer__cta/footer__cta-item-1.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/footer__cta/footer__cta-item-1.png" alt="icon not found" />
                                 </div>
 
                                 <div className="footer__cta-item-text">
@@ -704,7 +704,7 @@ const AboutPage: React.FC = () => {
                         <div className="col-md-6">
                             <div className="footer__cta-item mb-30 theme-bg-glow d-flex flex-lg-row flex-column align-items-lg-center">
                                 <div className="footer__cta-item-icon d-flex align-items-center justify-content-center">
-                                    <img className="img-fluid" src="src/assets/imgs/footer__cta/footer__cta-item-2.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/footer__cta/footer__cta-item-2.png" alt="icon not found" />
                                 </div>
 
                                 <div className="footer__cta-item-text">
