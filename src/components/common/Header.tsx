@@ -10,7 +10,7 @@ const Header: React.FC = () => {
                             <div className="header__logo">
                                 <a href="index.html">
                                     <div className="logo">
-                                        <img src="/src/assets/imgs/logo/logo.svg" alt="logo not found"/>
+                                        <img src="/assets/imgs/logo/logo.svg" alt="logo not found"/>
                                     </div>
                                 </a>
                             </div>

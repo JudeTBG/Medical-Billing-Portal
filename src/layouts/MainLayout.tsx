@@ -1,6 +1,6 @@
 import React,{ ReactNode } from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/common/Header";
+import Footer from "../components/common/Footer";
 
 interface Props {
 	children: ReactNode;
@@ -37,7 +37,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
                             <div className="offcanvas__top d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <a href="index.html">
-                                        <img src="/src/assets/imgs/logo/logo-white.svg" alt="logo not found"/>
+                                        <img src="/assets/imgs/logo/logo-white.svg" alt="logo not found"/>
                                     </a>
                                 </div>
                                 <div className="offcanvas__close">

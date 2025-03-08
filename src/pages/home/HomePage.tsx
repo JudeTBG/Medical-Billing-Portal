@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
                 <section className="banner banner__space overflow-hidden">
                     <div className="container">
                         <div className="banner__shape">
-                            <img src="/src/assets/imgs/banner/banner-shape.png" alt="image not found" />
+                            <img src="/assets/imgs/banner/banner-shape.png" alt="image not found" />
                         </div>
                         <div className="row">
                             <div className="col-12">
@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
                                     </a>
                                     <div className="banner__media mt-45 mt-xs-35 position-relative">
                                         <div className="panel wow"></div>
-                                        <img className="img-fluid" data-parallax='{"scale": 1.2, "smoothness": 15}' src="/src/assets/imgs/banner/banner.jpg" alt="images not found" />
+                                        <img className="img-fluid" data-parallax='{"scale": 1.2, "smoothness": 15}' src="/assets/imgs/banner/banner.jpg" alt="images not found" />
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="service__item mb-30">
                                     <div className="service__item-icon mb-20 mb-xs-15">
-                                        <img src="/src/assets/imgs/service/service__item-1.png" alt="icon not found" />
+                                        <img src="/assets/imgs/service/service__item-1.png" alt="icon not found" />
                                     </div>
 
                                     <h4 className="mb-25 mb-xs-20"><a href="service-details.html">Harbor Health</a></h4>
@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="service__item mb-30">
                                     <div className="service__item-icon mb-20 mb-xs-15">
-                                        <img src="/src/assets/imgs/service/service__item-2.png" alt="icon not found" />
+                                        <img src="/assets/imgs/service/service__item-2.png" alt="icon not found" />
                                     </div>
 
                                     <h4 className="mb-25 mb-xs-20"><a href="service-details.html">Radius Wellness</a></h4>
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="service__item mb-30">
                                     <div className="service__item-icon mb-20 mb-xs-15">
-                                        <img src="/src/assets/imgs/service/service__item-3.png" alt="icon not found" />
+                                        <img src="/assets/imgs/service/service__item-3.png" alt="icon not found" />
                                     </div>
 
                                     <h4 className="mb-25 mb-xs-20"><a href="service-details.html">Radius Wellness</a></h4>
@@ -77,7 +77,7 @@ const HomePage: React.FC = () => {
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="service__item mb-30">
                                     <div className="service__item-icon mb-20 mb-xs-15">
-                                        <img src="/src/assets/imgs/service/service__item-4.png" alt="icon not found" />
+                                        <img src="/assets/imgs/service/service__item-4.png" alt="icon not found" />
                                     </div>
 
                                     <h4 className="mb-25 mb-xs-20"><a href="service-details.html">Net Healthcare</a></h4>
@@ -96,7 +96,7 @@ const HomePage: React.FC = () => {
                         <div className="row align-items-center">
                             <div className="col-xl-6">
                                 <div className="section__title-wrapper about-us__content">
-                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> About us</h5>
+                                    <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> About us</h5>
                                     <h2 className="section__title mb-30 mb-xs-20 title-animation">Nurture Nature Blossoming in Health and Happiness</h2>
 
                                     <p className="mb-30 mb-xs-25">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis cras sed eu massa eu faucibus Urna fusce Et purus duis sollicitudin dignissim habitant.</p>
@@ -133,12 +133,12 @@ const HomePage: React.FC = () => {
 
                             <div className="col-xl-6">
                                 <div className="about-us__media d-flex flex-column flex-sm-row align-items-sm-start align-items-center justify-content-xl-end justify-content-center">
-                                    <img className="img-fluid about-us__media-big-shape" src="/src/assets/imgs/about-us/shape-big.png" alt="icon not found" />
+                                    <img className="img-fluid about-us__media-big-shape" src="/assets/imgs/about-us/shape-big.png" alt="icon not found" />
 
                                     <div className="about-us__media-experience-box__wrapper text-end">
                                         <div className="about-us__media-img img1">
-                                            <img className="img-fluid shape downUp" src="/src/assets/imgs/about-us/shape-2.png" alt="icon not found" />
-                                            <img className="img-fluid" src="/src/assets/imgs/about-us/about-us__media-1.jpg" alt="icon not found" />
+                                            <img className="img-fluid shape downUp" src="/assets/imgs/about-us/shape-2.png" alt="icon not found" />
+                                            <img className="img-fluid" src="/assets/imgs/about-us/about-us__media-1.jpg" alt="icon not found" />
                                         </div>
                                         <div className="about-us__media-experience-box d-inline-flex mt-20 text-start">
                                             <h2 className="mb-0"><span className="odometer" data-count="25">0</span></h2>
@@ -146,8 +146,8 @@ const HomePage: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="about-us__media-img img2">
-                                        <img className="img-fluid shape upDown" src="/src/assets/imgs/about-us/shape-1.png" alt="icon not found" />
-                                        <img className="img-fluid" src="/src/assets/imgs/about-us/about-us__media-2.jpg" alt="icon not found" />
+                                        <img className="img-fluid shape upDown" src="/assets/imgs/about-us/shape-1.png" alt="icon not found" />
+                                        <img className="img-fluid" src="/assets/imgs/about-us/about-us__media-2.jpg" alt="icon not found" />
 
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ const HomePage: React.FC = () => {
                                         </div>
 
                                         <div className="treatment-process__media mb-30">
-                                            <img className="img-fluid" data-parallax='{"scale": 1.2, "smoothness": 15}' src="/src/assets/imgs/treatment-process/treatment-process.jpg" alt="image not found" />
+                                            <img className="img-fluid" data-parallax='{"scale": 1.2, "smoothness": 15}' src="/assets/imgs/treatment-process/treatment-process.jpg" alt="image not found" />
 
                                             <a href="https://www.youtube.com/watch?v=dyNpojnbNT4" className="popup-video zooming" data-effect="mfp-move-from-top vertical-middle">
                                                 <i className="fa-thin fa-play"></i>
@@ -179,7 +179,7 @@ const HomePage: React.FC = () => {
                                     <div className="col-xxl-3 col-lg-4 col-md-6">
                                         <div className="treatment-process__item mb-30 text-center">
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
-                                                <img src="/src/assets/imgs/treatment-process/treatment-process__item-1.png" alt="icon not found" />
+                                                <img src="/assets/imgs/treatment-process/treatment-process__item-1.png" alt="icon not found" />
                                             </div>
                                             <h4 className="mb-15 mb-xs-10"><a href="service-details.html">Catalyst Services</a></h4>
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
@@ -188,7 +188,7 @@ const HomePage: React.FC = () => {
                                     <div className="col-xxl-3 col-lg-4 col-md-6">
                                         <div className="treatment-process__item mb-30 text-center">
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
-                                                <img src="/src/assets/imgs/treatment-process/treatment-process__item-2.png" alt="icon not found" />
+                                                <img src="/assets/imgs/treatment-process/treatment-process__item-2.png" alt="icon not found" />
                                             </div>
                                             <h4 className="mb-15 mb-xs-10"><a href="service-details.html">Wave Solutions</a></h4>
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
@@ -197,7 +197,7 @@ const HomePage: React.FC = () => {
                                     <div className="col-xxl-3 col-lg-4 col-md-6">
                                         <div className="treatment-process__item mb-30 text-center">
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
-                                                <img src="/src/assets/imgs/treatment-process/treatment-process__item-3.png" alt="icon not found" />
+                                                <img src="/assets/imgs/treatment-process/treatment-process__item-3.png" alt="icon not found" />
                                             </div>
                                             <h4 className="mb-15 mb-xs-10"><a href="service-details.html">Health Hub</a></h4>
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
@@ -206,7 +206,7 @@ const HomePage: React.FC = () => {
                                     <div className="col-xxl-3 col-lg-4 col-md-6">
                                         <div className="treatment-process__item mb-30 text-center">
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
-                                                <img src="/src/assets/imgs/treatment-process/treatment-process__item-4.png" alt="icon not found" />
+                                                <img src="/assets/imgs/treatment-process/treatment-process__item-4.png" alt="icon not found" />
                                             </div>
                                             <h4 className="mb-15 mb-xs-10"><a href="service-details.html">Weave Solutions</a></h4>
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
@@ -313,7 +313,7 @@ const HomePage: React.FC = () => {
                                 <div className="row align-items-center">
                                     <div className="col-xl-6">
                                         <div className="testimonial__media">
-                                            <img className="img-fluid" src="/src/assets/imgs/testimonial/testimonial.png" alt="image not found" />
+                                            <img className="img-fluid" src="/assets/imgs/testimonial/testimonial.png" alt="image not found" />
                                         </div>
                                     </div>
                                     <div className="col-xl-6">
@@ -322,7 +322,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="testimonial__item">
                                                         <div className="testimonial__item-icon mb-20 mb-xs-15">
-                                                            <img className="img-fluid" src="/src/assets/imgs/testimonial/qoute.png" alt="icon not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/testimonial/qoute.png" alt="icon not found" />
                                                         </div>
 
                                                         <div className="testimonial__item-content mb-35 mb-xs-30">
@@ -331,7 +331,7 @@ const HomePage: React.FC = () => {
 
                                                         <div className="testimonial__item-author d-flex align-items-center">
                                                             <div className="testimonial__item-thumb">
-                                                                <img className="img-fluid" src="/src/assets/imgs/testimonial/thumb.png" alt="icon not found" />
+                                                                <img className="img-fluid" src="/assets/imgs/testimonial/thumb.png" alt="icon not found" />
                                                             </div>
                                                             <div className="testimonial__item-text">
                                                                 <h4>Eleanor Pena</h4>
@@ -343,7 +343,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="testimonial__item">
                                                         <div className="testimonial__item-icon mb-20 mb-xs-15">
-                                                            <img className="img-fluid" src="/src/assets/imgs/testimonial/qoute.png" alt="icon not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/testimonial/qoute.png" alt="icon not found" />
                                                         </div>
 
                                                         <div className="testimonial__item-content mb-35 mb-xs-30">
@@ -352,7 +352,7 @@ const HomePage: React.FC = () => {
 
                                                         <div className="testimonial__item-author d-flex align-items-center">
                                                             <div className="testimonial__item-thumb">
-                                                                <img className="img-fluid" src="/src/assets/imgs/testimonial/thumb.png" alt="icon not found" />
+                                                                <img className="img-fluid" src="/assets/imgs/testimonial/thumb.png" alt="icon not found" />
                                                             </div>
                                                             <div className="testimonial__item-text">
                                                                 <h4>Eleanor Pena</h4>
@@ -386,7 +386,7 @@ const HomePage: React.FC = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="section__title-wrapper ask-question__content mb-40 mb-xs-30">
-                                            <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Ask Question</h5>
+                                            <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Ask Question</h5>
                                             <h2 className="section__title mb-0 title-animation">Healing Harmony Uniting Care and Compassion</h2>
                                         </div>
 
@@ -436,7 +436,7 @@ const HomePage: React.FC = () => {
 
                                     <div className="col-lg-6">
                                         <div className="ask-question__media text-lg-end text-center mt-xs-40 mt-sm-40 mt-md-40 position-relative overflow-hidden">
-                                            <img className="img-fluid" src="/src/assets/imgs/ask-quesiton/ask-question.png" alt="image not found" />
+                                            <img className="img-fluid" src="/assets/imgs/ask-quesiton/ask-question.png" alt="image not found" />
                                         </div>
                                     </div>
                                 </div>
@@ -452,35 +452,35 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="brand__item text-center">
                                                         <div className="brand__thumb">
-                                                            <img className="img-fluid" src="/src/assets/imgs/brand/brand-1.png" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/brand/brand-1.png" alt="image not found" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="swiper-slide">
                                                     <div className="brand__item text-center">
                                                         <div className="brand__thumb">
-                                                            <img className="img-fluid" src="/src/assets/imgs/brand/brand-2.png" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/brand/brand-2.png" alt="image not found" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="swiper-slide">
                                                     <div className="brand__item text-center">
                                                         <div className="brand__thumb">
-                                                            <img className="img-fluid" src="/src/assets/imgs/brand/brand-3.png" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/brand/brand-3.png" alt="image not found" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="swiper-slide">
                                                     <div className="brand__item text-center">
                                                         <div className="brand__thumb">
-                                                            <img className="img-fluid" src="/src/assets/imgs/brand/brand-4.png" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/brand/brand-4.png" alt="image not found" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="swiper-slide">
                                                     <div className="brand__item text-center">
                                                         <div className="brand__thumb">
-                                                            <img className="img-fluid" src="/src/assets/imgs/brand/brand-5.png" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/brand/brand-5.png" alt="image not found" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -508,7 +508,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-1.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-1.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -537,7 +537,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-2.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-2.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -566,7 +566,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-3.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-3.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -595,7 +595,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-1.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-1.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -624,7 +624,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-2.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-2.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -653,7 +653,7 @@ const HomePage: React.FC = () => {
                                                 <div className="swiper-slide">
                                                     <div className="team__item">
                                                         <div className="team__item-media">
-                                                            <img className="img-fluid" src="/src/assets/imgs/team/team__item-3.jpg" alt="image not found" />
+                                                            <img className="img-fluid" src="/assets/imgs/team/team__item-3.jpg" alt="image not found" />
                                                         </div>
 
                                                         <div className="team__item-content">
@@ -688,12 +688,12 @@ const HomePage: React.FC = () => {
 
                         <section className="take-appointment section-space overflow-hidden">
                             <div className="container">
-                                <div className="take-appointment__container-shape" data-background="/src/assets/imgs/take-appointment/container-shape.png">
+                                <div className="take-appointment__container-shape" data-background="/assets/imgs/take-appointment/container-shape.png">
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="section__title-wrapper take-appointment__content">
-                                            <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/src/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Take appointment</h5>
+                                            <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img src="/assets/imgs/ask-quesiton/heart.png" alt="icon not found" className="img-fluid" /> Take appointment</h5>
                                             <h2 className="section__title mb-20 mb-xs-15 title-animation">Infinite Wellness Where Possibilities Unfold</h2>
 
                                             <p className="mb-30 mb-xs-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc. Duis egestas ac ante sed  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rcus nunc. Duis egestas ac ante sed </p>
@@ -806,7 +806,7 @@ const HomePage: React.FC = () => {
                                         <div className="blog__item mb-30">
                                             <a href="blog-details.html" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
-                                                <img className="img-fluid" src="/src/assets/imgs/blog/blog-item-1.jpg" alt="image not found" />
+                                                <img className="img-fluid" src="/assets/imgs/blog/blog-item-1.jpg" alt="image not found" />
                                             </a>
 
                                             <div className="blog__item-content">
@@ -823,7 +823,7 @@ const HomePage: React.FC = () => {
                                         <div className="blog__item mb-30">
                                             <a href="blog-details.html" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
-                                                <img className="img-fluid" src="/src/assets/imgs/blog/blog-item-2.jpg" alt="image not found" />
+                                                <img className="img-fluid" src="/assets/imgs/blog/blog-item-2.jpg" alt="image not found" />
                                             </a>
 
                                             <div className="blog__item-content">
@@ -840,7 +840,7 @@ const HomePage: React.FC = () => {
                                         <div className="blog__item mb-30">
                                             <a href="blog-details.html" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
-                                                <img className="img-fluid" src="/src/assets/imgs/blog/blog-item-3.jpg" alt="image not found" />
+                                                <img className="img-fluid" src="/assets/imgs/blog/blog-item-3.jpg" alt="image not found" />
                                             </a>
 
                                             <div className="blog__item-content">

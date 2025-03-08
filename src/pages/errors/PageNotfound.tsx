@@ -31,7 +31,7 @@ const PageNotfound: React.FC = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="error__media text-lg-end text-center">
-                                    <img className="img-fluid" src="/src/assets/imgs/404/404.png" alt="icon not found" />
+                                    <img className="img-fluid" src="/assets/imgs/404/404.png" alt="icon not found" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
