@@ -9,7 +9,7 @@ import PageNotfound from './pages/errors/PageNotfound';
 
 const App: React.FC = () => {
 
-  const routes: RouteObject[] = [
+  const routes: RouteObject[] = [ 
     {
       path: "/",
       element: (
