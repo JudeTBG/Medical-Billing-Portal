@@ -9,28 +9,26 @@ const MainLayout: React.FC<Props> = ({ children }) => {
 
     return (
         <main className="main-layout">
-            <div id="preloader">
+            {/* <div id="preloader">
                 <div className="preloader-close">x</div>
                 <div className="sk-three-bounce">
                     <div className="sk-child sk-bounce1"></div>
                     <div className="sk-child sk-bounce2"></div>
                     <div className="sk-child sk-bounce3"></div>
                 </div>
-            </div>
-            <div className="loading-form">
+            </div> */}
+            {/* <div className="loading-form">
                 <div className="sk-three-bounce">
                     <div className="sk-child sk-bounce1"></div>
                     <div className="sk-child sk-bounce2"></div>
                     <div className="sk-child sk-bounce3"></div>
                 </div>
-            </div>
-            <div id="scroll-percentage">
+            </div> */}
+            {/* <div id="scroll-percentage">
                 <span id="scroll-percentage-value" data-default-color="var(--rr-color-900)" data-scroll-color="var(--rr-theme-primary)"></span>
-            </div>
-            {/* Backtotop end --> */}
-
-            {/* <!-- Offcanvas area start --> */}
-            <div className="fix">
+            </div> */}
+     
+            {/* <div className="fix">
                 <div className="offcanvas__area">
                     <div className="offcanvas__wrapper">
                         <div className="offcanvas__content">
@@ -74,7 +72,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
                 </div>
             </div>
             <div className="offcanvas__overlay"></div>
-            <div className="offcanvas__overlay-white"></div>
+            <div className="offcanvas__overlay-white"></div> */}
             <Header />
             <section >{children}</section>
             <Footer />
