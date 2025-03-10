@@ -29,12 +29,12 @@ const App: React.FC = () => {
         <ContactPage />
       ),
     },
-    {
-      path: "/faq",
-      element: (
-        <FaqPage />
-      ),
-    },
+    // {
+    //   path: "/faq",
+    //   element: (
+    //     <FaqPage />
+    //   ),
+    // },
     {
       path: "*",
       element: <PageNotfound />,
