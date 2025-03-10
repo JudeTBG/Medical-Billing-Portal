@@ -50,9 +50,9 @@ const Header: React.FC = () => {
                                             <li>
                                                 <a href="/contact">Contact</a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="/faq">FAQ</a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </nav>
                                 </div>

@@ -40,11 +40,11 @@ const HomePage: React.FC = () => {
                                         <img src="/assets/imgs/service/service__item-1.png" alt="icon not found" />
                                     </div>
 
-                                    <h4 className="mb-25 mb-xs-20"><a href="/faq">Harbor Health</a></h4>
+                                    {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Harbor Health</a></h4> */}
 
                                     <p className="mb-40 mb-xs-30">Et purus duis sollicitudin sed dign issim habi tant. Egestas nulla quis venenatis Et purus </p>
 
-                                    <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a>
+                                    {/* <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a> */}
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
                                         <img src="/assets/imgs/service/service__item-2.png" alt="icon not found" />
                                     </div>
 
-                                    <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4>
+                                    {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4> */}
 
                                     <p className="mb-40 mb-xs-30">Et purus duis sollicitudin sed dign issim habi tant. Egestas nulla quis venenatis Et purus </p>
 
@@ -66,11 +66,11 @@ const HomePage: React.FC = () => {
                                         <img src="/assets/imgs/service/service__item-3.png" alt="icon not found" />
                                     </div>
 
-                                    <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4>
+                                    {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4> */}
 
                                     <p className="mb-40 mb-xs-30">Et purus duis sollicitudin sed dign issim habi tant. Egestas nulla quis venenatis Et purus </p>
 
-                                    <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a>
+                                    {/* <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a> */}
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -79,7 +79,7 @@ const HomePage: React.FC = () => {
                                         <img src="/assets/imgs/service/service__item-4.png" alt="icon not found" />
                                     </div>
 
-                                    <h4 className="mb-25 mb-xs-20"><a href="/faq">Net Healthcare</a></h4>
+                                    {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Net Healthcare</a></h4> */}
 
                                     <p className="mb-40 mb-xs-30">Et purus duis sollicitudin sed dign issim habi tant. Egestas nulla quis venenatis Et purus </p>
 
@@ -189,7 +189,7 @@ const HomePage: React.FC = () => {
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
                                                 <img src="/assets/imgs/treatment-process/treatment-process__item-2.png" alt="icon not found" />
                                             </div>
-                                            <h4 className="mb-15 mb-xs-10"><a href="/faq">Wave Solutions</a></h4>
+                                            {/* <h4 className="mb-15 mb-xs-10"><a href="/faq">Wave Solutions</a></h4> */}
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
                                         </div>
                                     </div>
@@ -198,7 +198,7 @@ const HomePage: React.FC = () => {
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
                                                 <img src="/assets/imgs/treatment-process/treatment-process__item-3.png" alt="icon not found" />
                                             </div>
-                                            <h4 className="mb-15 mb-xs-10"><a href="/faq">Health Hub</a></h4>
+                                            {/* <h4 className="mb-15 mb-xs-10"><a href="/faq">Health Hub</a></h4> */}
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
                                         </div>
                                     </div>
@@ -207,7 +207,7 @@ const HomePage: React.FC = () => {
                                             <div className="treatment-process__item-icon mb-20 mb-xs-15">
                                                 <img src="/assets/imgs/treatment-process/treatment-process__item-4.png" alt="icon not found" />
                                             </div>
-                                            <h4 className="mb-15 mb-xs-10"><a href="/faq">Weave Solutions</a></h4>
+                                            {/* <h4 className="mb-15 mb-xs-10"><a href="/faq">Weave Solutions</a></h4> */}
                                             <p className="mb-0">Et purus duis sollicitudin sed dign issim habi tant.</p>
                                         </div>
                                     </div>
@@ -389,7 +389,7 @@ const HomePage: React.FC = () => {
                                             <h2 className="section__title mb-0 title-animation">Healing Harmony Uniting Care and Compassion</h2>
                                         </div>
 
-                                        <div className="rr__faq">
+                                        {/* <div className="rr__faq">
                                             <div className="accordion" id="accordionExample">
                                                 <div className="accordion-item">
                                                     <h5 className="accordion-header" id="headingOne">
@@ -430,7 +430,7 @@ const HomePage: React.FC = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="col-lg-6">
@@ -803,51 +803,51 @@ const HomePage: React.FC = () => {
                                 <div className="row mb-minus-30">
                                     <div className="col-xl-4 col-md-6">
                                         <div className="blog__item mb-30">
-                                            <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                                            {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-1.jpg" alt="image not found" />
-                                            </a>
+                                            </a> */}
 
                                             <div className="blog__item-content">
                                                 <div className="blog__item-content-date mb-15 mb-xs-10"><i className="fa-solid fa-calendar-days"></i> <span>October 19, 2022</span></div>
                                                 <h4 className="mb-15 mb-xs-10"><a href="/faq">Optimal Oasis Nurturing Health in Every Aspect</a></h4>
                                                 <p className="mb-40 mb-xs-30">Explore the dynamic commerce through our insightful blogs. Learn Explore the dynamic</p>
 
-                                                <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
+                                                {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="col-xl-4 col-md-6">
                                         <div className="blog__item mb-30">
-                                            <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                                            {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-2.jpg" alt="image not found" />
-                                            </a>
+                                            </a> */}
 
                                             <div className="blog__item-content">
                                                 <div className="blog__item-content-date mb-15 mb-xs-10"><i className="fa-solid fa-calendar-days"></i> <span>October 19, 2022</span></div>
                                                 <h4 className="mb-15 mb-xs-10"><a href="/faq">Embark on Health Wellness Begins</a></h4>
                                                 <p className="mb-40 mb-xs-30">Explore the dynamic commerce through our insightful blogs. Learn Explore the dynamic</p>
 
-                                                <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
+                                                {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="col-xl-4 col-md-6">
                                         <div className="blog__item mb-30">
-                                            <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                                            {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-3.jpg" alt="image not found" />
-                                            </a>
+                                            </a> */}
 
                                             <div className="blog__item-content">
                                                 <div className="blog__item-content-date mb-15 mb-xs-10"><i className="fa-solid fa-calendar-days"></i> <span>October 19, 2022</span></div>
                                                 <h4 className="mb-15 mb-xs-10"><a href="/faq">Flourishing Healthier Revive Radiance</a></h4>
                                                 <p className="mb-40 mb-xs-30">Explore the dynamic commerce through our insightful blogs. Learn Explore the dynamic</p>
 
-                                                <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
+                                                {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
                                             </div>
                                         </div>
                                     </div>

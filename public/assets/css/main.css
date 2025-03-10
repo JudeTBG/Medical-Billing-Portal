@@ -2053,24 +2053,24 @@ a.rr-a-btn:hover {
 }
 @-webkit-keyframes qode-draw {
   0%, 100% {
-    clip-path: inset(-2px 0);
+    clipPath: inset(-2px 0);
   }
   42% {
-    clip-path: inset(-2px 0 -2px 100%);
+    clipPath: inset(-2px 0 -2px 100%);
   }
   43% {
-    clip-path: inset(-2px 100% -2px 0);
+    clipPath: inset(-2px 100% -2px 0);
   }
 }
 @keyframes qode-draw {
   0%, 100% {
-    clip-path: inset(-2px 0);
+    clipPath: inset(-2px 0);
   }
   42% {
-    clip-path: inset(-2px 0 -2px 100%);
+    clipPath: inset(-2px 0 -2px 100%);
   }
   43% {
-    clip-path: inset(-2px 100% -2px 0);
+    clipPath: inset(-2px 100% -2px 0);
   }
 }
 @-webkit-keyframes scroll {
@@ -2683,18 +2683,18 @@ a.rr-a-btn:hover {
 }
 @-webkit-keyframes clip-a-z {
   0% {
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clipPath: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   100% {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clipPath: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 @keyframes clip-a-z {
   0% {
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clipPath: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   100% {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clipPath: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 .clip-a-z {

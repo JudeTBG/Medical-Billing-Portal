@@ -140,16 +140,16 @@
 @keyframes qode-draw {
 	0%,
 	100% {
-	 -webkit-clip-path:inset(-2px 0);
-	 clip-path:inset(-2px 0)
+	 -webkit-clipPath:inset(-2px 0);
+	 clipPath:inset(-2px 0)
 	}
 	42% {
-	 -webkit-clip-path:inset(-2px 0 -2px 100%);
-	 clip-path:inset(-2px 0 -2px 100%)
+	 -webkit-clipPath:inset(-2px 0 -2px 100%);
+	 clipPath:inset(-2px 0 -2px 100%)
 	}
 	43% {
-	 -webkit-clip-path:inset(-2px 100% -2px 0);
-	 clip-path:inset(-2px 100% -2px 0)
+	 -webkit-clipPath:inset(-2px 100% -2px 0);
+	 clipPath:inset(-2px 100% -2px 0)
 	}
 }
 // Mouse scroll animation
@@ -475,10 +475,10 @@
 
 @keyframes clip-a-z {
 	0% {
-		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+		clipPath: polygon(0 0, 100% 0, 100% 0, 0 0);
 	}
 	100% {
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		clipPath: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 	}
 }
 
