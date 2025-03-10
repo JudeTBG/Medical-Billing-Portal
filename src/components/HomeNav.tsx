@@ -8,7 +8,7 @@ const Header: React.FC = () => {
                     <div className="mega__menu-wrapper p-relative">
                         <div className="header__main">
                             <div className="header__logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <div className="logo">
                                         <img src="/assets/imgs/logo/logo.svg" alt="logo not found"/>
                                     </div>

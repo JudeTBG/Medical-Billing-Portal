@@ -3,14 +3,14 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer>
-            <section className="footer__area-common white-bg overflow-hidden" data-background="/src/assets/img/footer/background.png">
+            <section className="footer__area-common white-bg overflow-hidden" data-background="/assets/img/footer/background.png">
                 <div className="container">
                     <div className="row mb-minus-50">
                         <div className="col-lg-3 col-6">
                             <div className="footer__widget footer__widget-item-1">
                                 <div className="footer__logo mb-30 mb-xs-25">
-                                    <a href="index.html">
-                                        <img className="img-fluid" src="/src/assets/img/logo/footer-logo.svg" alt="logo not found" />
+                                    <a href="/">
+                                        <img className="img-fluid" src="/assets/img/logo/footer-logo.svg" alt="logo not found" />
                                     </a>
                                 </div>
 
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="footer__copyright text-lg-start text-center">
-                                        <p className="mb-0">© <a href="index.html">Medilix</a>  2024 | All Rights Reserved</p>
+                                        <p className="mb-0">© <a href="/">Medilix</a>  2024 | All Rights Reserved</p>
                                     </div>
                                 </div>
 

@@ -16,7 +16,7 @@ const PageNotfound: React.FC = () => {
                                     <div className="breadcrumb__menu">
                                         <nav>
                                             <ul>
-                                                <li><span><a href="index.html">Home</a></span></li>
+                                                <li><span><a href="/">Home</a></span></li>
                                                 <li className="active"><span>404 Error</span></li>
                                             </ul>
                                         </nav>
@@ -38,7 +38,7 @@ const PageNotfound: React.FC = () => {
                                 <div className="error__content mt-md-55 mt-sm-50 mt-xs-40">
                                     <h1 className="title">404</h1>
                                     <p className="mb-40 mb-xs-30">Ethics are integral to medical practice, guiding decisions regarding high patient care, confidentiality, consent, and end-of-life care</p>
-                                    <a href="index.html" className="rr-btn">
+                                    <a href="/" className="rr-btn">
                                         <span className="btn-wrap">
                                             <span className="text-one">Go Back Home</span>
                                             <span className="text-two">Go Back Home</span>

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const FaqPage: React.FC = () => {
     return (
@@ -20,7 +21,7 @@ const FaqPage: React.FC = () => {
                                     <div className="breadcrumb__menu">
                                         <nav>
                                             <ul>
-                                                <li><span><a href="index.html">Home</a></span></li>
+                                                <li><span><a href="/">Home</a></span></li>
                                                 <li className="active"><span>FAQ</span></li>
                                             </ul>
                                         </nav>
@@ -306,8 +307,7 @@ const FaqPage: React.FC = () => {
                     </div>
                 </div>
             </section>
-
-
+            <Footer />
         </>
     );
 };

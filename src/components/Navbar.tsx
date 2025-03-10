@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
                         <div className="offcanvas__content">
                             <div className="offcanvas__top d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <img src="/assets/imgs/logo/logo-white.svg" alt="logo not found" />
                                     </a>
                                 </div>
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
                         <div className="mega__menu-wrapper p-relative">
                             <div className="header__main">
                                 <div className="header__logo">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <div className="logo">
                                             <img src="/assets/imgs/logo/logo.svg" alt="logo not found" />
                                         </div>
