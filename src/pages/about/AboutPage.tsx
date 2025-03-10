@@ -112,7 +112,7 @@ const AboutPage: React.FC = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="about-us.html" className="rr-btn position-relative overflow-hidden">
+                                    <a href="/about" className="rr-btn position-relative overflow-hidden">
                                         <div className="panel wow"></div>
                                         <span className="btn-wrap">
                                             <span className="text-one">Read More <i className="fa-solid fa-plus"></i></span>

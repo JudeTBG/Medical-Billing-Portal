@@ -38,10 +38,10 @@ const Footer: React.FC = () => {
                                 </div>
                                 <div className="footer__link">
                                     <ul>
-                                        <li><a href="about-us.html">Reliable Rentals</a></li>
-                                        <li><a href="about-us.html">Golden Key Properties</a></li>
-                                        <li><a href="about-us.html">Swift Home Sales</a></li>
-                                        <li><a href="about-us.html">Elite Realty Services</a></li>
+                                        <li><a href="/about">Reliable Rentals</a></li>
+                                        <li><a href="/about">Golden Key Properties</a></li>
+                                        <li><a href="/about">Swift Home Sales</a></li>
+                                        <li><a href="/about">Elite Realty Services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,9 +100,9 @@ const Footer: React.FC = () => {
                                 <div className="col-lg-6">
                                     <div className="footer__copyright-menu">
                                         <ul>
-                                            <li><a href="about-us.html">Trams & Condition</a></li>
-                                            <li><a href="about-us.html">Privacy Policy</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="/about">Trams & Condition</a></li>
+                                            <li><a href="/about">Privacy Policy</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
