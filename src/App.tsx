@@ -5,7 +5,7 @@ import './App.css'
 import HomePage from './pages/home/HomePage';
 import AboutPage from './pages/about/AboutPage';
 import ContactPage from './pages/contact/ContactPage';
-import FaqPage from './pages/faq/FaqPage';
+
 import PageNotfound from './pages/errors/PageNotfound';
 
 const App: React.FC = () => {
