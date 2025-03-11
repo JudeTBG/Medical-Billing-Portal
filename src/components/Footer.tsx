@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
                             <div className="footer__widget footer__widget-item-1">
                                 <div className="footer__logo mb-30 mb-xs-25">
                                     <a href="/">
-                                        <img className="img-fluid" src="/assets/img/logo/footer-logo.svg" alt="logo not found" />
+                                        <img className="img-fluid" src="/assets/imgs/logo/jude-logo.svg" alt="logo not found" />
                                     </a>
                                 </div>
 

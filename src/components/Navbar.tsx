@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
                             <div className="offcanvas__top d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <a href="/">
-                                        <img src="/assets/imgs/logo/logo-white.svg" alt="logo not found" />
+                                        <img src="/assets/imgs/logo/jude-logo.svg" alt="logo not found" />
                                     </a>
                                 </div>
                                 <div className="offcanvas__close">
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
                                 <div className="header__logo">
                                     <a href="/">
                                         <div className="logo">
-                                            <img src="/assets/imgs/logo/logo.svg" alt="logo not found" />
+                                            <img src="/assets/imgs/logo/jude-logo.svg" alt="logo not found" height={50} />
                                         </div>
                                     </a>
                                 </div>

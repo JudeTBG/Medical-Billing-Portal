@@ -18,6 +18,12 @@ const App: React.FC = () => {
       ),
     },
     {
+      path: "/home",
+      element: (
+        <HomePage />
+      ),
+    },
+    {
       path: "/about",
       element: (
         <AboutPage />
