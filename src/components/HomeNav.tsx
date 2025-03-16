@@ -22,7 +22,7 @@ const Header: React.FC = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  const currentPath = window.location.pathname;
   return (
     <>
       {isOpened && <MobileNav closeMobileNav = {closeMobileNav} />}
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                   <div className="main-menu">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className=" has-mega-menu active">
+                      <li className={`has-mega-menu ${currentPath === "/" || currentPath === "/home" ? "active" : ""}`}>
                           <a href="/">Home</a>
                         </li>
                         <li>
@@ -63,7 +63,7 @@ const Header: React.FC = () => {
                         <li>
                           <a href="/contact">Contact</a>
                         </li>
-                        <li>
+                        <li className={`has-mega-menu ${ currentPath === "/testimonials" ? "active" : ""}`}>
                           <a href="/testimonials">Testimonials</a>
                         </li>
                       </ul>
