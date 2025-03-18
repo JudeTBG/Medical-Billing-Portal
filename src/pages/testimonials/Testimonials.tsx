@@ -62,7 +62,7 @@ const Testimonials: React.FC = () => {
       image: "https://media.licdn.com/dms/image/v2/D5603AQFZZqfz4m0zJQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684074698230?e=2147483647&v=beta&t=WH2jGy0J6liAWzMaoGI7_r3VHl1C_GuQXeN6ReP0G_c",
     },
   ];
-  const scrollContainerRef = useRef(null);
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -127,7 +127,7 @@ const Testimonials: React.FC = () => {
                   <div key={testimonial.id} className="testimonial-card">
                     <div>
 
-                    <img src={testimonial.image} alt={testimonial.name} />
+                      <img src={testimonial.image} alt={testimonial.name} />
                     </div>
                     <h3>{testimonial.name}</h3>
                     <p className="role">{testimonial.role}</p>
