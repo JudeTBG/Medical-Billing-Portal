@@ -1,0 +1,128 @@
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* WRAPPER TO HOLD BUTTONS AND SCROLLER */
+  .testimonials-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* SCROLL CONTAINER */
+  .testimonials-scroll-container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    display: flex;
+    padding-bottom: 10px;
+    width: 80%;
+    scroll-behavior: smooth;
+  }
+  
+  /* Hide scrollbar */
+  .testimonials-scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* FLEX CONTAINER */
+  .testimonials-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* INDIVIDUAL CARD */
+  .testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 280px;
+    max-width: 300px;
+    text-align: center;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures uniform height */
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .testimonial-card .role {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card .testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    word-wrap: break-word; /* Ensures text wraps inside the card */
+    overflow: hidden; /* Hides overflow text */
+    text-overflow: ellipsis; /* Shows "..." if text is too long */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Show max 4 lines */
+    -webkit-box-orient: vertical;
+  }
+  
+  /* BUTTON STYLING */
+  .scroll-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Button Hover Effect */
+  .scroll-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* LEFT & RIGHT BUTTON POSITION */
+  .scroll-btn.left {
+    position: absolute;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .scroll-btn.right {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+  }
+  
