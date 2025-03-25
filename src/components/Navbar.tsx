@@ -99,11 +99,11 @@ const Navbar: React.FC = () => {
                         <li className={`has-mega-menu ${currentPath === "/" || currentPath === "/home" ? "active" : ""}`}>
                           <a href="/">Home</a>
                         </li>
-                        <li className={`has-mega-menu ${currentPath === "/contact" ? "active" : ""}`}>
-                          <a href="/contact">contact</a>
-                        </li>
                         <li className={`has-mega-menu ${currentPath === "/about" ? "active" : ""}`}>
                           <a href="/about">About</a>
+                        </li>
+                        <li className={`has-mega-menu ${currentPath === "/contact" ? "active" : ""}`}>
+                          <a href="/contact">contact</a>
                         </li>
                         <li className={`has-mega-menu ${currentPath === "/testimonials" ? "active" : ""}`}>
                           <a href="/testimonials">Testimonials</a>
