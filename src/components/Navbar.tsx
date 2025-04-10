@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
 
   const currentPath = window.location.pathname;
 
-
   return (
     <>
       {isOpened && <MobileNav closeMobileNav={closeMobileNav} />}
@@ -32,14 +31,15 @@ const Navbar: React.FC = () => {
               <div className="col-8 d-none d-lg-block">
                 <div className="header-4-top__menu d-flex">
                   <a href="https://maps.app.goo.gl/BUA2hZbxWPt8EATx9">
-                    <i className="fa-solid fa-location-dot"></i> 6391 Elgin St.
-                    Celina, 10299
+                    <i className="fa-solid fa-location-dot"></i> 600054
+                    Kavarapalayam,Tamil Nadu
                   </a>
                   <a href="tel:6295550129">
                     <i className="fa-solid fa-phone"></i> (629) 555-0129
                   </a>
-                  <a href="mailto:info@medilix.com">
-                    <i className="fa-solid fa-envelope"></i> info@medilix.com
+                  <a href="mailto:team@judebillingsolutions.com">
+                    <i className="fa-solid fa-envelope"></i>{" "}
+                    team@judebillingsolutions.com
                   </a>
                 </div>
               </div>
@@ -96,16 +96,34 @@ const Navbar: React.FC = () => {
                   <div className="main-menu main-menu-3">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className={`has-mega-menu ${currentPath === "/" || currentPath === "/home" ? "active" : ""}`}>
+                        <li
+                          className={`has-mega-menu ${
+                            currentPath === "/" || currentPath === "/home"
+                              ? "active"
+                              : ""
+                          }`}
+                        >
                           <a href="/">Home</a>
                         </li>
-                        <li className={`has-mega-menu ${currentPath === "/about" ? "active" : ""}`}>
+                        <li
+                          className={`has-mega-menu ${
+                            currentPath === "/about" ? "active" : ""
+                          }`}
+                        >
                           <a href="/about">About</a>
                         </li>
-                        <li className={`has-mega-menu ${currentPath === "/contact" ? "active" : ""}`}>
+                        <li
+                          className={`has-mega-menu ${
+                            currentPath === "/contact" ? "active" : ""
+                          }`}
+                        >
                           <a href="/contact">contact</a>
                         </li>
-                        <li className={`has-mega-menu ${currentPath === "/testimonials" ? "active" : ""}`}>
+                        <li
+                          className={`has-mega-menu ${
+                            currentPath === "/testimonials" ? "active" : ""
+                          }`}
+                        >
                           <a href="/testimonials">Testimonials</a>
                         </li>
                       </ul>
