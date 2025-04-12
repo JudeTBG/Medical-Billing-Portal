@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         data-background="/assets/img/footer/background.png"
       >
         <div className="container">
-          <div className="row mb-minus-50">
+          <div style={{justifyContent: "space-around"}} className="row mb-minus-50">
             <div className="col-lg-3 col-6">
               <div className="footer__widget footer__widget-item-1">
                 <div className="footer__logo mb-30 mb-xs-25">
@@ -76,36 +76,6 @@ const Footer: React.FC = () => {
                       <a href="/about">Elite Realty Services</a>
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-6">
-              <div className="footer__widget footer__widget-item-3">
-                <div className="footer__widget-title">
-                  <h4>Our newsletter</h4>
-                </div>
-
-                <div className="footer__subscribe-content">
-                  <p className="mb-30 mb-xs-25">
-                    Custom Software Development Tailored Solutions for Your
-                    Business Custom{" "}
-                  </p>
-
-                  <div className="footer__subscribe d-flex mt-30 mt-xs-25">
-                    <input type="text" placeholder="Enter e-mail" />
-                    <button type="submit" className="rr-btn rr-btn__theme">
-                      <span className="btn-wrap">
-                        <span className="text-one">
-                          <i className="fa-solid fa-paper-plane"></i>
-                        </span>
-
-                        <span className="text-two">
-                          <i className="fa-solid fa-paper-plane"></i>
-                        </span>
-                      </span>
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>

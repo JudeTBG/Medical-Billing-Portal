@@ -186,7 +186,7 @@ const HomePage: React.FC = () => {
                           0
                         </span>
                       </h2>
-                      <p className="mb-0">Years Of experience</p>
+                      <p className="mb-0">Years Of experiences</p>
                     </div>
                   </div>
                   <div className="about-us__media-img img2">
