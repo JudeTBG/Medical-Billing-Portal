@@ -7,7 +7,7 @@ const PrivacyPolicy: React.FC = () => {
 
   useEffect(() => {
     // Fetch the docx file as an ArrayBuffer
-    fetch("public/assets/docs/PrivacyPolicy.docx")
+    fetch("/assets/docs/PrivacyPolicy.docx")
       .then((response) => response.arrayBuffer())
       .then((arrayBuffer) => mammoth.convertToHtml({ arrayBuffer }))
       .then((result) => {
