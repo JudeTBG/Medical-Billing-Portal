@@ -7,7 +7,7 @@ const TermsPage: React.FC = () => {
 
   useEffect(() => {
     // Fetch the docx file as an ArrayBuffer
-    fetch("public/assets/docs/Terms.docx")
+    fetch("/assets/docs/Terms.docx")
       .then((response) => response.arrayBuffer())
       .then((arrayBuffer) => mammoth.convertToHtml({ arrayBuffer }))
       .then((result) => {
