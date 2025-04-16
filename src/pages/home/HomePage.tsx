@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
                     <img
                       className="img-fluid"
                       data-parallax='{"scale": 1.2, "smoothness": 15}'
-                      src="/assets/imgs/banner/banner.jpg"
+                      src="/assets/imgs/home/marek-studzinski-ZFfBwfiB2CM-unsplash.jpg"
                       alt="images not found"
                     />
                   </div>
@@ -52,11 +52,11 @@ const HomePage: React.FC = () => {
         <section className="service service__space">
           <div className="container">
             <div className="row mb-minus-30">
-              <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="service__item mb-30">
                   <div className="service__item-icon mb-20 mb-xs-15">
                     <img
-                      src="/assets/imgs/service/service__item-1.png"
+                      src="/assets/imgs/home/payment.png"
                       alt="icon not found"
                     />
                   </div>
@@ -64,18 +64,20 @@ const HomePage: React.FC = () => {
                   {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Harbor Health</a></h4> */}
 
                   <p className="mb-40 mb-xs-30">
-                    Et purus duis sollicitudin sed dign issim habi tant. Egestas
-                    nulla quis venenatis Et purus{" "}
+                    <b>Stop waiting for payments</b> <br /> We streamline your
+                    billing, minimize errors, and aggressively follow up on
+                    claims, significantly reducing your accounts receivable
+                    timeline.
                   </p>
 
                   {/* <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a> */}
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="service__item mb-30">
                   <div className="service__item-icon mb-20 mb-xs-15">
                     <img
-                      src="/assets/imgs/service/service__item-2.png"
+                      src="/assets/imgs/home/revenue_cycle.png"
                       alt="icon not found"
                     />
                   </div>
@@ -83,20 +85,18 @@ const HomePage: React.FC = () => {
                   {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4> */}
 
                   <p className="mb-40 mb-xs-30">
-                    Et purus duis sollicitudin sed dign issim habi tant. Egestas
-                    nulla quis venenatis Et purus{" "}
+                    <b>Accelerate Your Revenue Cycle</b> <br /> Our expert
+                    medical billing services ensure faster claims processing and
+                    quicker reimbursements, putting more money in your practice,
+                    sooner.
                   </p>
-
-                  <a className="rr-a-btn" href="/faq">
-                    Read More <i className="fa-solid fa-circle-plus"></i>
-                  </a>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="service__item mb-30">
                   <div className="service__item-icon mb-20 mb-xs-15">
                     <img
-                      src="/assets/imgs/service/service__item-3.png"
+                      src="/assets/imgs/home/billings.png"
                       alt="icon not found"
                     />
                   </div>
@@ -104,14 +104,16 @@ const HomePage: React.FC = () => {
                   {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Radius Wellness</a></h4> */}
 
                   <p className="mb-40 mb-xs-30">
-                    Et purus duis sollicitudin sed dign issim habi tant. Egestas
-                    nulla quis venenatis Et purus{" "}
+                    <b>Refine your billing process</b> <br /> We focus on
+                    streamlining each step, from patient registration to payment
+                    posting, minimizing errors and maximizing the efficiency of
+                    your revenue cycle management.
                   </p>
 
                   {/* <a className="rr-a-btn" href="/faq">Read More <i className="fa-solid fa-circle-plus"></i></a> */}
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-6">
+              {/* <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="service__item mb-30">
                   <div className="service__item-icon mb-20 mb-xs-15">
                     <img
@@ -120,7 +122,7 @@ const HomePage: React.FC = () => {
                     />
                   </div>
 
-                  {/* <h4 className="mb-25 mb-xs-20"><a href="/faq">Net Healthcare</a></h4> */}
+                  <h4 className="mb-25 mb-xs-20"><a href="/faq">Net Healthcare</a></h4>
 
                   <p className="mb-40 mb-xs-30">
                     Et purus duis sollicitudin sed dign issim habi tant. Egestas
@@ -131,7 +133,7 @@ const HomePage: React.FC = () => {
                     Read More <i className="fa-solid fa-circle-plus"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -176,7 +178,7 @@ const HomePage: React.FC = () => {
                         style={{ height: 275, width: 292, objectFit: "cover" }}
                         className="img-fluid"
                         // className="img-fluid shape downUp"
-                        src="https://lh3.googleusercontent.com/KccK2bqFpLRVA01X-mUeyPSEKv0hqrK1d1WxYpuNo_oQQMoZ2Xki_gXIibIQ4EIQfwbzCxKsivQePM0PW_5hyky3sVZuInxGECoTiTa643Rl3-xh1CPaA8MKAVjjd8Q-zQ=w1280"
+                        src="/assets/imgs/home/david-travis-5bYxXawHOQg-unsplash.jpg"
                         alt="icon not found"
                       />
                     </div>
@@ -190,17 +192,11 @@ const HomePage: React.FC = () => {
                     </div>
                   </div>
                   <div className="about-us__media-img img2">
-                    <img
-                      className="img-fluid shape upDown"
-                      src="/assets/imgs/about-us/shape-1.png"
-                      alt="icon not found"
-                    />
-                    <img
+                    {/* <img
                       style={{ width: 299, height: 516 }}
                       className="img-fluid"
-                      src="https://lh6.googleusercontent.com/Dy6xmkHOlTwFKznkSw0ZI6Rkm8x-OsE5biZ5abABJa3RVq486vYWnV712CjVwfRj6gnCwQh40QQwICUqdVfdazuQ1PpQW4B2Q24x-n0yw_tFmjN117W0HJGoeINGa1dZaA=w1280"
                       alt="icon not found"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -246,21 +242,24 @@ const HomePage: React.FC = () => {
                         </h5>
                       </div>
                     </div>
-                    <div className="treatment-process__media mb-30">
-                      <img
-                        className="img-fluid"
-                        data-parallax='{"scale": 1.2, "smoothness": 15}'
-                        src="/assets/imgs/treatment-process/treatment-process.jpg"
-                        alt="image not found"
-                      />
+                    <div style={{display:"flex",justifyContent:"center"}} className="treatment-process__media mb-30">
+                      <iframe
+                        width="80%"
+                        height="500"
+                        src="https://www.youtube.com/embed/1i1EzDtZpFA"
+                        title="YouTube video"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
 
-                      <a
+                      {/* <a
                         href="https://www.youtube.com/watch?v=dyNpojnbNT4"
                         className="popup-video zooming"
                         data-effect="mfp-move-from-top vertical-middle"
                       >
                         <i className="fa-thin fa-play"></i>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -853,7 +852,7 @@ const HomePage: React.FC = () => {
               </div>
             </section> */}
 
-            <section className="testimonial section-space__bottom">
+            {/* <section className="testimonial section-space__bottom">
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-xl-6">
@@ -972,13 +971,13 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
             <section className="ask-question section-space__top">
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="section__title-wrapper ask-question__content mb-40 mb-xs-30">
+                    {/* <div className="section__title-wrapper ask-question__content mb-40 mb-xs-30">
                       <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation">
                         <img
                           src="/assets/imgs/ask-quesiton/heart.png"
@@ -990,7 +989,7 @@ const HomePage: React.FC = () => {
                       <h2 className="section__title mb-0 title-animation">
                         Healing Harmony Uniting Care and Compassion
                       </h2>
-                    </div>
+                    </div> */}
 
                     {/* <div className="rr__faq">
                                             <div className="accordion" id="accordionExample">
@@ -1036,7 +1035,7 @@ const HomePage: React.FC = () => {
                                         </div> */}
                   </div>
 
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <div className="ask-question__media text-lg-end text-center mt-xs-40 mt-sm-40 mt-md-40 position-relative overflow-hidden">
                       <img
                         className="img-fluid"
@@ -1044,12 +1043,12 @@ const HomePage: React.FC = () => {
                         alt="image not found"
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </section>
 
-            <div className="brand__area section-space">
+            {/* <div className="brand__area section-space">
               <div className="container">
                 <div className="row">
                   <div className="col-12">
@@ -1115,9 +1114,9 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <section className="team section-space__bottom">
+            {/* <section className="team section-space__bottom">
               <div className="container">
                 <div className="row">
                   <div className="col-12">
@@ -1462,9 +1461,9 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            <section className="take-appointment section-space overflow-hidden">
+            {/* <section className="take-appointment section-space overflow-hidden">
               <div className="container">
                 <div
                   className="take-appointment__container-shape"
@@ -1614,9 +1613,9 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            <section className="blog section-space__bottom">
+            {/* <section className="blog section-space__bottom">
               <div className="container">
                 <div className="row">
                   <div className="col-12">
@@ -1631,10 +1630,10 @@ const HomePage: React.FC = () => {
                 <div className="row mb-minus-30">
                   <div className="col-xl-4 col-md-6">
                     <div className="blog__item mb-30">
-                      {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                      <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-1.jpg" alt="image not found" />
-                                            </a> */}
+                                            </a>
 
                       <div className="blog__item-content">
                         <div className="blog__item-content-date mb-15 mb-xs-10">
@@ -1651,17 +1650,17 @@ const HomePage: React.FC = () => {
                           blogs. Learn Explore the dynamic
                         </p>
 
-                        {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
+                        <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
                       </div>
                     </div>
                   </div>
 
                   <div className="col-xl-4 col-md-6">
                     <div className="blog__item mb-30">
-                      {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                      <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-2.jpg" alt="image not found" />
-                                            </a> */}
+                                            </a>
 
                       <div className="blog__item-content">
                         <div className="blog__item-content-date mb-15 mb-xs-10">
@@ -1676,17 +1675,17 @@ const HomePage: React.FC = () => {
                           blogs. Learn Explore the dynamic
                         </p>
 
-                        {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
+                        <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
                       </div>
                     </div>
                   </div>
 
                   <div className="col-xl-4 col-md-6">
                     <div className="blog__item mb-30">
-                      {/* <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
+                      <a href="/faq" className="blog__item-media d-block position-relative overflow-hidden">
                                                 <div className="panel wow"></div>
                                                 <img className="img-fluid" src="/assets/imgs/blog/blog-item-3.jpg" alt="image not found" />
-                                            </a> */}
+                                            </a>
 
                       <div className="blog__item-content">
                         <div className="blog__item-content-date mb-15 mb-xs-10">
@@ -1703,13 +1702,13 @@ const HomePage: React.FC = () => {
                           blogs. Learn Explore the dynamic
                         </p>
 
-                        {/* <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a> */}
+                        <a className="rr-a-btn" href="/faq">View More <i className="fa-solid fa-circle-plus"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
           </div>
         </section>
       </main>

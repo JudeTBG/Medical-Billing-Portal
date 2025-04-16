@@ -105,7 +105,7 @@ const AboutPage: React.FC = () => {
                       Holistic Haven Where Health Every Day
                     </h2> */}
                     <p className="mb-0">
-                      About us Jude Billing Solutions streamlines medical
+                      Jude Billing Solutions streamlines medical
                       billing for healthcare providers. Our comprehensive
                       revenue cycle management services maximize reimbursements,
                       reduce administrative burdens, and improve efficiency.
@@ -231,20 +231,7 @@ const AboutPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <a
-                    href="/about"
-                    className="rr-btn position-relative overflow-hidden"
-                  >
-                    <div className="panel wow"></div>
-                    <span className="btn-wrap">
-                      <span className="text-one">
-                        Read More <i className="fa-solid fa-plus"></i>
-                      </span>
-                      <span className="text-two">
-                        Read More <i className="fa-solid fa-plus"></i>
-                      </span>
-                    </span>
-                  </a>
+              
                 </div>
               </div>
             </div>
@@ -641,7 +628,7 @@ const AboutPage: React.FC = () => {
         {/* <!-- client-testimonial area end --> */}
 
         {/* <!-- Brand area start --> */}
-        <div className="brand__area section-space__bottom">
+        {/* <div className="brand__area section-space__bottom">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -707,7 +694,7 @@ const AboutPage: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
 
       <section className="footer__cta footer__cta-bottom-up">

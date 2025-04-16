@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +9,10 @@ const Footer: React.FC = () => {
         data-background="/assets/img/footer/background.png"
       >
         <div className="container">
-          <div style={{justifyContent: "space-around"}} className="row mb-minus-50">
+          <div
+            style={{ justifyContent: "space-around" }}
+            className="row mb-minus-50"
+          >
             <div className="col-lg-3 col-6">
               <div className="footer__widget footer__widget-item-1">
                 <div className="footer__logo mb-30 mb-xs-25">
@@ -23,8 +27,7 @@ const Footer: React.FC = () => {
 
                 <div className="footer__content">
                   <p className="mb-0">
-                    It is a long established fact that a reader will be
-                    distracted
+                    JudeBillingSolutions: Effortless billing, exceptional result
                   </p>
                 </div>
 
@@ -64,16 +67,19 @@ const Footer: React.FC = () => {
                 <div className="footer__link">
                   <ul>
                     <li>
-                      <a href="/about">Reliable Rentals</a>
+                      <a href="/about">Charge entry</a>
                     </li>
                     <li>
-                      <a href="/about">Golden Key Properties</a>
+                      <a href="/about">Cash Posting</a>
                     </li>
                     <li>
-                      <a href="/about">Swift Home Sales</a>
+                      <a href="/about">Coding</a>
                     </li>
                     <li>
-                      <a href="/about">Elite Realty Services</a>
+                      <a href="/about">Account Receivables</a>
+                    </li>{" "}
+                    <li>
+                      <a href="/about">Insurance Verification</a>
                     </li>
                   </ul>
                 </div>
@@ -95,7 +101,7 @@ const Footer: React.FC = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://maps.app.goo.gl/4XYAPDmpesGnSbsC8">
+                      <a >
                         <i className="fa-solid fa-location-dot"></i>
                         Chennai - India office <br />
                         No. 1/116 Kanagarosi Street, <br />
@@ -128,13 +134,16 @@ const Footer: React.FC = () => {
                   <div className="footer__copyright-menu">
                     <ul>
                       <li>
-                        <a href="/about">Trams & Condition</a>
+                        <Link to="/terms">Terms & Condition</Link>
                       </li>
                       <li>
-                        <a href="/about">Privacy Policy</a>
+                      <Link to="/privacy-policy">Privacy Policy</Link>
+
+                      
                       </li>
                       <li>
-                        <a href="/contact">Contact Us</a>
+                      <Link to="/contact">Contact Us</Link>
+
                       </li>
                     </ul>
                   </div>
