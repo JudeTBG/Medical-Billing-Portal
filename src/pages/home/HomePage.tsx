@@ -166,11 +166,11 @@ const HomePage: React.FC = () => {
 
               <div className="col-xl-6">
                 <div className="about-us__media d-flex flex-column flex-sm-row align-items-sm-start align-items-center justify-content-xl-end justify-content-center">
-                  <img
+                  {/* <img
                     className="img-fluid about-us__media-big-shape"
                     src="/assets/imgs/about-us/shape-big.png"
                     alt="icon not found"
-                  />
+                  /> */}
 
                   <div className="about-us__media-experience-box__wrapper text-end">
                     <div className="about-us__media-img img1">
@@ -182,14 +182,14 @@ const HomePage: React.FC = () => {
                         alt="icon not found"
                       />
                     </div>
-                    <div className="about-us__media-experience-box d-inline-flex mt-20 text-start">
+                    {/* <div className="about-us__media-experience-box d-inline-flex mt-20 text-start">
                       <h2 className="mb-0">
                         <span className="odometer" data-count="25">
                           0
                         </span>
                       </h2>
                       <p className="mb-0">Years Of experiences</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="about-us__media-img img2">
                     {/* <img

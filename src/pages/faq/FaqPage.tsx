@@ -193,16 +193,6 @@ const FaqPage: React.FC = () => {
                                 <div className="pricing-appointment__contact-item__wrap d-flex flex-column">
                                     <div className="pricing-appointment__contact-item d-flex align-items-end">
                                         <div className="pricing-appointment__contact-item-icon d-flex align-items-center justify-content-center">
-                                            <i className="fa-solid fa-phone"></i>
-                                        </div>
-                                        <div className="pricing-appointment__contact-item-text">
-                                            <p>Requesting A Call:</p>
-                                            <h5 className="mb-0"><a href="tel:6295550129">(629) 555-0129</a></h5>
-                                        </div>
-                                    </div>
-
-                                    <div className="pricing-appointment__contact-item d-flex align-items-end">
-                                        <div className="pricing-appointment__contact-item-icon d-flex align-items-center justify-content-center">
                                             <i className="fa-solid fa-clock"></i>
                                         </div>
                                         <div className="pricing-appointment__contact-item-text">

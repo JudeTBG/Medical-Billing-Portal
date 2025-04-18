@@ -12833,7 +12833,7 @@ a.ui-button:active {
   overflow: hidden;
 }
 .about-us-2__space {
-  padding: 146px 0 141px;
+  padding-top: 146px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-2__space {

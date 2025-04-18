@@ -34,9 +34,6 @@ const Navbar: React.FC = () => {
                     <i className="fa-solid fa-location-dot"></i> 600054
                     Kavarapalayam,Tamil Nadu
                   </a>
-                  <a href="tel:6295550129">
-                    <i className="fa-solid fa-phone"></i> (629) 555-0129
-                  </a>
                   <a href="mailto:team@judebillingsolutions.com">
                     <i className="fa-solid fa-envelope"></i>{" "}
                     team@judebillingsolutions.com

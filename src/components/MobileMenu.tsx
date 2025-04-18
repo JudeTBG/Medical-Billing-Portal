@@ -22,26 +22,6 @@ const MobileMenu: React.FC = () => {
                                 </div>
                             </div>
                             <div className="mobile-menu fix"></div>
-                            <div className="offcanvas__social">
-                                <h4 className="offcanvas__title mb-20">Subscribe & Follow</h4>
-                                <p className="mb-30">Medical practices evolved over millennia, from ancient civilizations like Egypt and Mesopotamia to the groundbreaking</p>
-                                <ul className="header-top-socail-menu d-flex">
-                                    <li><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i className="fa-brands fa-pinterest-p"></i></a></li>
-                                    <li><a href="https://vimeo.com/"><i className="fa-brands fa-vimeo-v"></i></a></li>
-                                </ul>
-                            </div>
-                            <div className="offcanvas__btn d-sm-none">
-                                <div className="header__btn-wrap">
-                                    <a href="https://themeforest.net/user/rrdevs/portfolio" className="rr-btn rr-btn__theme rr-btn__theme-white mt-40 mt-sm-35 mt-xs-30">
-                                        <span className="btn-wrap">
-                                            <span className="text-one">Purchase Now</span>
-                                            <span className="text-two">Purchase Now</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
